@@ -46,10 +46,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <form method="POST" action="login.php">
         <label>Usuário:</label><br>
-        <input type="text" name="usuario" required><br><br>
+        <input type="text" name="usuario" required placeholder="admin"><br><br>
 
         <label>Senha:</label><br>
-        <input type="password" name="senha" required><br><br>
+        <input type="password" name="senha" required placeholder="123"><br><br>
 
         <button type="submit">Entrar</button>
     </form>

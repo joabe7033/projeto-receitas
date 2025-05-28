@@ -1,5 +1,4 @@
 <?php
-session_start();
 $paginaAtual = basename($_SERVER['PHP_SELF']);
 $titulo = '🍽️ Catálogo de Receitas';
 

@@ -61,9 +61,15 @@ if ($categoria) {
         </div>
     <?php endif; ?>
 
-    <a href="index.php">
-        <button type="submit" style="background-color: #95a5a6; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer;">Voltar ao Catálogo</button>
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+    <a href="index.php" style="text-decoration: none;">
+        <button type="submit" style="background-color: transparent; color: #2c3e50; padding: 8px 16px; border: none; font-size: 16px; cursor: pointer;">
+            ← Voltar ao Catálogo
+        </button>
     </a>
+</div>
+
+
 
 </body>
 </html>
